@@ -1,6 +1,6 @@
 const { program } = require("commander");
 
-const contacts = require("./bd/contacts.js");
+const contacts = require("./db/contacts.js");
 
 const invokeAction = async ({ action, id, name, email, phone }) => {
   switch (action) {
@@ -29,8 +29,7 @@ program
   .option("-e, --email <type>", "user email")
   .option("-p, --phone <type>", "user phone");
 
-program.parse();
+program.parse(process.argv);
 
 const argv = program.opts();
-console.log(argv);
 invokeAction(argv);
