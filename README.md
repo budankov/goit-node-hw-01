@@ -4,7 +4,7 @@
 
 ## Отримуємо контакт по id
 
-![Creating repo from a template step 2](https://i.ibb.co/BgRp8xy/g-t.jpg)
+![Creating repo from a template step 2](https://i.ibb.co/ZHqVyPy/get.png)
 
 ## Додаємо контакт
 
